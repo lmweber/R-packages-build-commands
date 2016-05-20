@@ -15,14 +15,14 @@ See Hadley Wickham's [R packages textbook](http://r-pkgs.had.co.nz/) for more in
 
 ## RStudio
 
-```
+```r
 Command-Shift-k  # build vignette
 ```
 
 
 ## command-line
 
-```
+```r
 R CMD BiocCheck .  # run checks for Bioconductor submission
 R CMD build .      # build package as .tar.gz bundle (saved in current directory)
 R CMD check --as-cran <filename.tar.gz>  # run checks for CRAN submission
