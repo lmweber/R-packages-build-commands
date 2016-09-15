@@ -10,7 +10,9 @@ devtools::test()      # run all unit tests
 devtools::check()     # run checks
 ```
 
-See Hadley Wickham's [R packages textbook](http://r-pkgs.had.co.nz/) for more information. The `devtools` package can be installed with `install.packages("devtools")`.
+The `devtools` package can be installed with `install.packages("devtools")`.
+
+See Hadley Wickham's [R packages textbook](http://r-pkgs.had.co.nz/) for more information.
 
 
 ## RStudio
