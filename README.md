@@ -27,7 +27,7 @@ Command-Shift-k  # build vignette
 ```r
 R CMD BiocCheck .  # run checks for Bioconductor submission
 R CMD build .      # build package as .tar.gz bundle (saved in current directory)
-R CMD check --as-cran <filename.tar.gz>  # run checks for CRAN submission
+R CMD check --as-cran filename.tar.gz  # run checks for CRAN submission
 ```
 
 
